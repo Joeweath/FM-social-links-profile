@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: hsl(0, 0%, 100%);
+    background-color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    
+}
+
+#content {
+    background-color:hsl(0, 0%, 8%);
+    justify-self: center;
+}
+
+h3{
+    color: hsl(75, 94%, 57%)
+}
+
+p {
+    color: hsl(0, 0%, 20%);
+}
+
+button {
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+}
+
+image {
+    border-radius: 80%;
+}
+
